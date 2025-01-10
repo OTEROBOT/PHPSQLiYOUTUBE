@@ -11,6 +11,9 @@ $emp_birthday = $_POST["emp_birthday"];
 $emp_adr = $_POST["emp_adr"];
 $emp_skill = $_POST["emp_skill"];
 $emp_tel = $_POST["emp_tel"];
+$emp_user = $_POST["emp_user"];
+$emp_pass = $_POST["emp_pass"];
+$emp_level = $_POST["emp_level"];
 
 // สร้างคำสั่ง SQL สำหรับการอัปเดตข้อมูล
 $sql = "UPDATE employee SET 
